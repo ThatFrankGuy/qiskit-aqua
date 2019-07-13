@@ -14,6 +14,12 @@
 
 from .estimator import Estimator
 from .multiclass_extension import MulticlassExtension
+from .one_against_rest import OneAgainstRest
+from .error_correcting_code import ErrorCorrectingCode
+from .all_pairs import AllPairs
 
 __all__ = ['MulticlassExtension',
+           'OneAgainstRest'
+           'ErrorCorrectingCode'
+           'AllPairs'
            'Estimator']
